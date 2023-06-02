@@ -7,6 +7,19 @@
   <version>3.0-SNAPSHOT</version>
   <name>01-maven-web-app</name>
   <url>http://maven.apache.org</url>
+  
+  <properties>
+		<jdk.version>1.8</jdk.version>
+		<spring.version>5.1.2.RELEASE</spring.version>
+		<junit.version>4.11</junit.version>
+		<log4j.version>1.2.17</log4j.version>
+		<sonar.host.url>http://23.20.137.125:9000/</sonar.host.url>
+		<sonar.login>squ_8a28135db12e81c9ca85f759dfd7ff9a552482f7</sonar.login>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+	</properties>
+
  
   <dependencies>
     <dependency>
